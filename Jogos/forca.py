@@ -31,7 +31,6 @@ def jogar():
     else:
         imprime_mensagem_perdedor(palavra_secreta)
 
-
 def desenha_forca(erros):
     print("  _______     ")
     print(" |/      |    ")
