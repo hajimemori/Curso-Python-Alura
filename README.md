@@ -35,3 +35,10 @@ Para isso foi utilizado uma biblioteca chamada datetime na qual era possivel a u
 Para isso foi utilizado uma API chamada viacep (https://viacep.com.br) no qual é possível, através de um CEP, ter retornos de logradouro, cidade, uf e muito mais. Com isso, foi implementado no projeto uma função que, ao registrar o cep, ela retorna o bairro, cidade e estado daquele cep extraindo os dados de um arquivo .json. 
 
 
+## Curso de TDD com Python
+
+Neste curso foi ensinado a usar as bibliotecas unittest ou pytest para realizar testes automatizados nos proprios codigos além de utilizarmos excessões personalidas para cada erro. Durante o curso foi desenvolvido um projeto no qual simula um leilão com as seguintes regras de negócio:
+
+    * Um lance realizado no leilão deve ser sempre maior ao lance anterior
+    * Um usuário não pode dar dois lances seguidos
+    * Cada usuário tem uma carteira e o seu lance sempre deve ser menor ou igual ao valor que possui em sua carteira
