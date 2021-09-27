@@ -39,6 +39,6 @@ Para isso foi utilizado uma API chamada viacep (https://viacep.com.br) no qual �
 
 Neste curso foi ensinado a usar as bibliotecas unittest ou pytest para realizar testes automatizados nos proprios codigos além de utilizarmos excessões personalidas para cada erro. Durante o curso foi desenvolvido um projeto no qual simula um leilão com as seguintes regras de negócio:
 
-    * Um lance realizado no leilão deve ser sempre maior ao lance anterior
-    * Um usuário não pode dar dois lances seguidos
-    * Cada usuário tem uma carteira e o seu lance sempre deve ser menor ou igual ao valor que possui em sua carteira
+    - Um lance realizado no leilão deve ser sempre maior ao lance anterior
+    - Um usuário não pode dar dois lances seguidos
+    - Cada usuário tem uma carteira e o seu lance sempre deve ser menor ou igual ao valor que possui em sua carteira
